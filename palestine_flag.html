@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>Title</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <style>
+
+    *{
+    margin: 0;
+    padding:0;  
+}
+body{
+    background-color: #C8ABA4;
+}
+.box1{
+    margin: 50px;
+    height: 50px;
+    width: 300px;
+    background: black;
+    position: relative;
+    z-index: 2;
+}
+.deep1{
+    margin: 50px;
+    height: 50px;
+    width: 300px;
+    background: green;
+    position: relative;
+    z-index: 1;
+  }
+.deep2{
+      margin: 50px;
+      margin-top: -150px;
+      height: 50px;
+      width: 300px;
+      background-color: white;
+      color: black;
+  }
+
+.box2{
+        width: 0px;
+        height: 0px;
+        border-top: 74px solid transparent;
+        border-left: 98px solid red;
+        border-bottom: 76px solid transparent;   
+}
+
+h4{
+  margin: 50px;
+  font-size: larger;
+  text-shadow: 4px 4px #ff0000;
+}
+  </style>
+</head>
+
+<body>
+  <h4>Palestine</h4>
+<div class="flag">
+  <div class="box1">
+    <div class="box2"></div>
+  </div>
+  <div class="deep1"></div>
+  <div class="deep2"></div>
+</div>
+
+</body>
+
+</html>

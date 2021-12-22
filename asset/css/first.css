@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding:0;  
+}
+body{
+    background-color: #C8ABA4;
+}
+.box1{
+    margin: 50px;
+    height: 50px;
+    width: 300px;
+    background: black;
+    position: relative;
+    z-index: 2;
+}
+.deep1{
+    margin: 50px;
+    height: 50px;
+    width: 300px;
+    background: green;
+    position: relative;
+    z-index: 1;
+}
+
+.box2{
+        width: 0px;
+        height: 0px;
+        border-top: 74px solid transparent;
+        border-left: 98px solid red;
+        border-bottom: 76px solid transparent;   
+}
+
+.deep2{
+    margin: 50px;
+    margin-top: -150px;
+    height: 50px;
+    width: 300px;
+    background-color: white;
+}
